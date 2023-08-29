@@ -1,6 +1,14 @@
 
 ## Jenkins Pipeline using maven sonarqube and ansible
 
+Deploying a static webpage using Jenkins scripted pipeline. Tools used in the project are:
+- **Git:** Developers push the code. Since GitHub is integrated with Jenkins through *Webhook*, it triggers the jenkins when any changes in code take place.
+- **Jenkins:** Automates tasks like building, testing, and deploying.
+- **Maven:** Manages dependencies
+- **SonarQube:**  Ensures code quality
+- **Docker:** Facilitates consistent packaging
+- **Ansible:** Handles deployment to servers. 
+
 
 
 #### Git Checkout
